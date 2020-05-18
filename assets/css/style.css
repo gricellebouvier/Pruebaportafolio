@@ -1,10 +1,9 @@
 body {
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
-
 header {
-  background-image:  url('../img/header-foto.png');
+  background-image: url('../img/header-foto.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -42,15 +41,16 @@ p {
   width: 45%;
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   header {
     height: 400px;
   }
 
-.textos h1 {
+  .textos h1 {
     font-size: 60px;
   }
-.textos h3 {
-  font-size: 16px;
-}
+
+  .textos h3 {
+    font-size: 16px;
+  }
 }
