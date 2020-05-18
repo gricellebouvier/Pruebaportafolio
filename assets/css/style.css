@@ -1,0 +1,56 @@
+body {
+  font-family: 'Oswald',sans-serif;
+}
+
+
+header {
+  background-image:  url('../img/header-foto.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 750px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+}
+
+.yo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.cita {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.logos img {
+  width: 45%;
+}
+
+@media (max-width: 576px){
+  header {
+    height: 400px;
+  }
+
+.textos h1 {
+    font-size: 60px;
+  }
+.textos h3 {
+  font-size: 16px;
+}
+}
